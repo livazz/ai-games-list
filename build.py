@@ -72,8 +72,10 @@ for c in curated:
         "play": None if c.get("web") else play_link(c["title"]), "web": bool(c.get("web")),
     })
 by_app = {r["appid"]: r for r in steam_rows}
+# même nom mais autre jeu (version mobile distincte, application compagnon) : la déclaration Steam ne s'y applique pas
+OTHER_GAME = ("Companion", "Arcade Edition", "Call of Duty®: Mobile", "Blitz", "MapleStory M", "Solo Leveling:Arise")
 for appid, m in mob.get("matches", {}).items():
-    if not m or m["id"] in seen or appid not in by_app:
+    if not m or m["id"] in seen or appid not in by_app or any(x in m["name"] for x in OTHER_GAME):
         continue
     s = by_app[appid]
     mobile_rows.append({

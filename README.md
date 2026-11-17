@@ -314,22 +314,44 @@ Relevé du 2026-11-17. Steam : les 3 000 meilleures ventes du moment (classement
 | 2956 | [Life of Delivery](https://store.steampowered.com/app/2188700/) | Aimcalcy, ahtek07 | — | Non précisé |
 | 2987 | [The Zone - FPV Drone Simulator](https://store.steampowered.com/app/3491280/) | Nils Vollenbruch (@nils vo) | 495 | Page du store |
 
-## Mobile (12)
+## Mobile (34)
 
 | Jeu | Éditeur | Notes App Store (US) | Usages | Preuve |
 |---|---|--:|---|---|
+| [eFootball™](https://apps.apple.com/us/app/efootball/id1117270703) | Konami Digital Entertainment Co., Ltd. | 520 246 | Visuels, Son et voix, Texte et traduction | [Déclaration sur Steam](https://store.steampowered.com/app/1665460/) |
 | [status - sims but social media](https://apps.apple.com/us/app/status-sims-but-social-media/id6596771144) | WishRoll | 211 126 | Texte et traduction, IA pendant le jeu | [PocketGamer.biz](https://www.pocketgamer.biz/how-status-created-a-million-user-ai-social-simulation-in-a-month/) |
+| [CarX Street](https://apps.apple.com/us/app/carx-street/id1458863319) | KAR IKS TEKHNOLODZHIS, OOO | 149 549 | Visuels, Son et voix | [Déclaration sur Steam](https://store.steampowered.com/app/1114150/) |
+| [WGT Golf: Realistic Golf Game](https://apps.apple.com/us/app/wgt-golf-realistic-golf-game/id672828590) | World Golf Tour, Inc | 108 390 | Visuels | [Déclaration sur Steam](https://store.steampowered.com/app/1182020/) |
+| [Play Together: Friends & Party](https://apps.apple.com/us/app/play-together-friends-party/id1402384531) | HAEGIN Co., Ltd. | 73 735 | Visuels, Son et voix, Texte et traduction, IA pendant le jeu | [Déclaration sur Steam](https://store.steampowered.com/app/3198850/) |
+| [Zombie Gunship Survival: AC130](https://apps.apple.com/us/app/zombie-gunship-survival-ac130/id1019161597) | Flaregames GmbH | 58 525 | Visuels, Page du store | [Déclaration sur Steam](https://store.steampowered.com/app/1597480/) |
 | [Infinite Craft by Neal](https://apps.apple.com/us/app/infinite-craft-by-neal/id6499235533) | Neal Agarwal | 55 004 | Texte et traduction, IA pendant le jeu | [Wikipédia (en)](https://en.wikipedia.org/wiki/Infinite_Craft) |
-| [MapleStory M: Fantasy MMORPG](https://apps.apple.com/us/app/maplestory-m-fantasy-mmorpg/id1290086677) | NEXON Korea Corporation | 31 513 | Visuels, Texte et traduction | [Déclaration sur Steam](https://store.steampowered.com/app/216150/) |
+| [Westland Survival - Cowboy RPG](https://apps.apple.com/us/app/westland-survival-cowboy-rpg/id1339238576) | HELIO LTD | 47 535 | Visuels, Page du store | [Déclaration sur Steam](https://store.steampowered.com/app/2730970/) |
+| [Modern Warships: Naval Battles](https://apps.apple.com/us/app/modern-warships-naval-battles/id1541751298) | ARTSTORM FZE | 40 303 | Visuels | [Déclaration sur Steam](https://store.steampowered.com/app/3144230/) |
+| [Heartopia](https://apps.apple.com/us/app/heartopia/id6746151928) | XD (HK) Limited | 36 315 | Visuels | [Déclaration sur Steam](https://store.steampowered.com/app/4025700/) |
 | [AI Dungeon: RPG & Story Maker](https://apps.apple.com/us/app/ai-dungeon-rpg-story-maker/id1491268416) | Latitude | 26 891 | Texte et traduction, IA pendant le jeu | [Fiche App Store](https://apps.apple.com/us/app/ai-dungeon-rpg-story-maker/id1491268416) |
 | [NTE: Neverness to Everness](https://apps.apple.com/us/app/nte-neverness-to-everness/id6754593077) | Hotta Studio (Perfect World) | 19 610 | Visuels | [AllThings.how](https://allthings.how/neverness-to-everness-ai-art-controversy-explained/) |
+| [Foundation: Galactic Frontier](https://apps.apple.com/us/app/foundation-galactic-frontier/id6737595599) | FunPlus International AG | 9 579 | Page du store | [Déclaration sur Steam](https://store.steampowered.com/app/4223760/) |
+| [Blue Archive-Free Fest Choice](https://apps.apple.com/us/app/blue-archive-free-fest-choice/id1571873795) | NEXON Korea Corporation | 5 594 | Son et voix | [Déclaration sur Steam](https://store.steampowered.com/app/3557620/) |
+| [The Seven Deadly Sins: Origin](https://apps.apple.com/us/app/the-seven-deadly-sins-origin/id6744205088) | Netmarble Corporation | 4 948 | Visuels, Son et voix, Texte et traduction | [Déclaration sur Steam](https://store.steampowered.com/app/3679080/) |
+| [World of Warships: Legends PvP](https://apps.apple.com/us/app/world-of-warships-legends-pvp/id1630309846) | WARGAMING Group Limited | 3 742 | Code, Visuels | [Déclaration sur Steam](https://store.steampowered.com/app/2964090/) |
 | [Where Winds Meet](https://apps.apple.com/us/app/where-winds-meet/id6472396866) | NETEASE INTERACTIVE ENTERTAINMENT PTE. LTD | 3 414 | Visuels, Son et voix, Texte et traduction, IA pendant le jeu | [Déclaration sur Steam](https://store.steampowered.com/app/3564740/) |
+| [Texas Hold'em Poker: Pokerist+](https://apps.apple.com/us/app/texas-holdem-poker-pokerist/id6477283493) | KamaGames | 3 154 | Visuels | [Déclaration sur Steam](https://store.steampowered.com/app/3174070/) |
+| [Vampire's Fall 2 RPG](https://apps.apple.com/us/app/vampires-fall-2-rpg/id6739215084) | Early Morning Studio AB | 2 861 | Texte et traduction | [Déclaration sur Steam](https://store.steampowered.com/app/4264230/) |
+| [Mimic Party !](https://apps.apple.com/us/app/mimic-party/id6813545317) | FoliesAPP | 1 757 | Visuels, Son et voix | [Déclaration sur Steam](https://store.steampowered.com/app/5053820/) |
+| [Vegas Infinite by PokerStars](https://apps.apple.com/us/app/vegas-infinite-by-pokerstars/id6593571492) | Lucky VR Inc. | 1 428 | Non précisé | [Déclaration sur Steam](https://store.steampowered.com/app/886250/) |
+| [Undecember: The Farside](https://apps.apple.com/us/app/undecember-the-farside/id6443444355) | LINE Games | 880 | Visuels | [Déclaration sur Steam](https://store.steampowered.com/app/1549250/) |
+| [Age of History 3](https://apps.apple.com/us/app/age-of-history-3/id6686394372) | Lukasz Jakowski Games | 644 | Visuels | [Déclaration sur Steam](https://store.steampowered.com/app/2772750/) |
 | [38-0: Football Draft](https://apps.apple.com/us/app/38-0-football-draft/id6781590450) | 38-0 Digital (Josh Pavey) | 618 | Code | [Mobilegamer.biz, 16 juin 2026](https://mobilegamer.biz/38-0-is-the-second-amateur-made-football-drafting-game-to-break-into-the-uk-app-store-top-ten/) |
+| [DAVE THE DIVER](https://apps.apple.com/us/app/dave-the-diver/id6759962259) | MintRocket | 356 | Texte et traduction | [Déclaration sur Steam](https://store.steampowered.com/app/1868140/) |
+| [FATE: Reawakened](https://apps.apple.com/us/app/fate-reawakened/id6742834644) | gamigo Publishing GmbH | 322 | Son et voix, Texte et traduction | [Déclaration sur Steam](https://store.steampowered.com/app/3030720/) |
+| [Siralim Ultimate](https://apps.apple.com/us/app/siralim-ultimate/id1601114348) | Thylacine Studios LLC | 241 | Texte et traduction | [Déclaration sur Steam](https://store.steampowered.com/app/1289810/) |
 | [Whispers from the Star](https://apps.apple.com/us/app/whispers-from-the-star/id6743071754) | Anuttacon | 137 | Son et voix, Texte et traduction, IA pendant le jeu | [Fiche App Store](https://apps.apple.com/us/app/whispers-from-the-star/id6743071754) |
+| [SOVL: Fantasy Warfare](https://apps.apple.com/us/app/sovl-fantasy-warfare/id6746472271) | Dalen Studios AB | 116 | Visuels | [Déclaration sur Steam](https://store.steampowered.com/app/1870300/) |
 | [38-0-0: Football Squad Draft](https://apps.apple.com/us/app/38-0-0-football-squad-draft/id6776756035) | Deniz Sancar | 107 | Code | [Mobilegamer.biz, 11 juin 2026](https://mobilegamer.biz/the-uks-number-one-ios-game-38-0-0-was-built-overnight-by-an-amateur-using-claude-code/) |
 | [Pets & Puzzles](https://apps.apple.com/us/app/pets-puzzles/id6670199655) | Cosmic Lounge | 36 | Code, Visuels | [Mobilegamer.biz, 28 août 2025](https://mobilegamer.biz/seriously-though-where-are-all-the-ai-games/) |
 | [Suika Watermelon Game (Coolmath Games)](https://www.coolmathgames.com/0-suika-watermelon-game) | Auteur de la lettre « gameplaydev » | — | Code, Visuels | [gameplaydev (Substack), 11 mai 2026](https://gameplaydev.substack.com/p/my-ai-generated-game-earned-25000) |
 | [Destiny Eleven](https://rotek.fr/destiny-eleven-cest-quoi-ce-jeu-de-carriere-de-football-qui-commence-a-retourner-tout-le-monde/) | Maxence Pigné | — | Code | [Rotek / Purebreak](https://www.purebreak.com/news/en-manque-de-la-coupe-du-monde-ce-jeu-de-foot-qui-cartonne-va-devenir-votre-nouvelle-obsession/264228) |
+| [Of Dice and Minions](https://apps.apple.com/us/app/of-dice-and-minions/id6792100491) | FOORBYTES, LLC | 0 | Son et voix, Texte et traduction, Page du store | [Déclaration sur Steam](https://store.steampowered.com/app/4984370/) |
 
 ## Mettre à jour
 
