@@ -1,0 +1,97 @@
+{
+ "1407200": {
+  "code": false,
+  "visuals": true
+ },
+ "5475960": {
+  "code": true,
+  "visuals": false,
+  "audio": false,
+  "text": true
+ },
+ "5189500": {
+  "code": false,
+  "visuals": true,
+  "audio": true
+ },
+ "4957380": {
+  "code": false,
+  "visuals": true,
+  "text": true,
+  "live": false
+ },
+ "5455960": {
+  "code": false,
+  "visuals": true,
+  "audio": true,
+  "text": true,
+  "live": false
+ },
+ "4736470": {
+  "code": true,
+  "visuals": false,
+  "audio": false,
+  "marketing": false
+ },
+ "935490": {
+  "code": true,
+  "visuals": true,
+  "text": true,
+  "audio": false
+ },
+ "5378030": {
+  "code": false,
+  "visuals": true,
+  "audio": true,
+  "text": true
+ },
+ "4927490": {
+  "code": true,
+  "visuals": false,
+  "audio": false,
+  "text": false
+ },
+ "1289810": {
+  "code": false,
+  "visuals": false,
+  "audio": false,
+  "text": true
+ },
+ "4982860": {
+  "code": false,
+  "visuals": true
+ },
+ "5101960": {
+  "code": true,
+  "text": true,
+  "live": false
+ },
+ "5185890": {
+  "code": true
+ },
+ "4197610": {
+  "visuals": true
+ },
+ "2668000": {
+  "visuals": true
+ },
+ "4493090": {
+  "code": true,
+  "visuals": true
+ },
+ "3091340": {
+  "visuals": true,
+  "marketing": true
+ },
+ "247970": {
+  "audio": true,
+  "visuals": true
+ },
+ "3009300": {
+  "code": true,
+  "visuals": true,
+  "text": true,
+  "audio": true,
+  "live": false
+ }
+}

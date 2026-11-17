@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jeux faits avec de l'IA : les meilleures ventes</title>
+<style>
+:root{--bg:#f6f5f1;--card:#fff;--ink:#1a1a1a;--mute:#6b6b6b;--line:#e2e0d9;--accent:#1a1a1a;
+--code:#1f5fbf;--visuals:#b4530a;--audio:#7a3fb0;--text:#2b7a4b;--live:#b3263a;--marketing:#777}
+@media (prefers-color-scheme:dark){:root{--bg:#141414;--card:#1e1e1e;--ink:#eee;--mute:#9a9a9a;--line:#333;--accent:#eee;
+--code:#7fb0ff;--visuals:#f0a565;--audio:#c69cf0;--text:#7fd0a0;--live:#ff8a9a;--marketing:#aaa}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:1100px;margin:0 auto;padding:20px 16px 60px}
+h1{font-size:26px;margin:8px 0 6px;letter-spacing:-.02em}
+.lead{color:var(--mute);max-width:70ch;margin:0 0 18px}
+a{color:inherit}
+.tabs{display:flex;gap:8px;margin:14px 0}
+.tabs button{font:inherit;font-weight:600;padding:9px 16px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
+.tabs button[aria-pressed=true]{background:var(--accent);color:var(--bg);border-color:var(--accent)}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
+.chip{font:inherit;font-size:14px;padding:7px 12px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
+.chip[aria-pressed=true]{background:var(--accent);color:var(--bg);border-color:var(--accent)}
+.chip small{opacity:.65;margin-left:4px}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:10px 0}
+.row label{color:var(--mute);font-size:13px}
+input[type=search],select{font:inherit;padding:8px 10px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--ink)}
+input[type=search]{flex:1;min-width:180px}
+.count{color:var(--mute);font-size:13px;margin:8px 0}
+.list{display:grid;gap:8px}
+.g{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;display:grid;grid-template-columns:64px 1fr auto;gap:4px 14px;align-items:start}
+.rank{font-size:20px;font-weight:700;font-variant-numeric:tabular-nums}
+.rank small{display:block;font-size:11px;font-weight:400;color:var(--mute)}
+.t{font-weight:650;font-size:16px;text-decoration:none}
+.t:hover{text-decoration:underline}
+.m{color:var(--mute);font-size:13px}
+.badges{display:flex;flex-wrap:wrap;gap:5px;margin-top:6px}
+.b{font-size:12px;font-weight:600;padding:2px 8px;border-radius:999px;border:1px solid currentColor}
+.b.code{color:var(--code)}.b.visuals{color:var(--visuals)}.b.audio{color:var(--audio)}.b.text{color:var(--text)}.b.live{color:var(--live)}.b.marketing,.b.none{color:var(--marketing)}
+.side{text-align:right;font-size:13px;color:var(--mute);white-space:nowrap}
+.side b{color:var(--ink);font-size:15px}
+.note{grid-column:2/-1;font-size:13.5px;margin-top:6px}
+.links{grid-column:2/-1;font-size:13px;margin-top:4px;display:flex;flex-wrap:wrap;gap:4px 14px}
+.proof{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--mute)}
+details{margin-top:28px;border-top:1px solid var(--line);padding-top:14px;color:var(--mute);font-size:14px}
+details summary{cursor:pointer;color:var(--ink);font-weight:600}
+details li{margin:6px 0}
+@media (max-width:600px){.g{grid-template-columns:48px 1fr}.side{grid-column:2;text-align:left}.rank{font-size:17px}}
+</style>
+</head>
+<body>
+<main>
+<h1>Jeux faits avec de l'IA : les meilleures ventes</h1>
+<p class="lead" id="lead"></p>
+<div class="tabs" id="tabs"></div>
+<div class="filters" id="cats"></div>
+<div class="row"><label>Aussi :</label><span class="filters" id="extra" style="margin:0"></span></div>
+<div class="row">
+  <input type="search" id="q" placeholder="Chercher un jeu ou un studio">
+  <label for="sort">Trier par</label>
+  <select id="sort"></select>
+</div>
+<div class="count" id="count"></div>
+<div class="list" id="list"></div>
+
+<details open>
+<summary>D'où viennent ces données, et leurs limites</summary>
+<ul>
+<li><b>Classement Steam</b> : la liste officielle des <a href="https://store.steampowered.com/search/?filter=topsellers&category1=998">meilleures ventes de Steam</a> (boutique des États-Unis), que Steam classe selon le chiffre d'affaires récent. Le rang 1 est le jeu qui rapporte le plus en ce moment. Le nombre d'avis donne une idée des ventes sur la durée.</li>
+<li><b>Usage de l'IA sur Steam</b> : la rubrique « AI Generated Content Disclosure » que chaque studio remplit lui-même sur sa fiche. Le lien « Lire la déclaration » y mène.</li>
+<li><b>Tri par usage</b> : fait par mots-clés sur le texte de la déclaration. Il peut se tromper, surtout quand le studio écrit « nous n'utilisons pas l'IA pour… ». « Usage non précisé » veut dire que le studio parle d'IA sans dire pour quoi.</li>
+<li><b>Ce qui manque</b> : les jeux qui ne déclarent rien. Steam ne demande de déclarer que ce qui se retrouve dans le jeu ou sur sa page, donc l'aide au code est très peu déclarée : la liste « code » est sûrement loin du compte.</li>
+<li><b>Mobile</b> : ni l'App Store ni Google Play n'affichent d'étiquette IA, et aucun classement officiel n'existe. La liste réunit des jeux dont l'usage de l'IA est confirmé par le créateur ou la presse (source en lien), et les jeux de la liste Steam qui existent aussi sur iPhone. Les rangs viennent des classements officiels de l'App Store des États-Unis (100 premiers jeux). Elle est donc courte et incomplète.</li>
+<li>Autres suivis utiles : <a href="https://aitransparencyindex.com/stats">AI Transparency Index</a> (toutes les déclarations Steam), <a href="https://clankercharts.com/">Clanker Charts</a> (classement hebdomadaire de jeux faits avec l'IA), <a href="https://naavik.co/digest/is-the-era-of-mobile-ai-slop-games-here/">Naavik</a> (l'effet sur le mobile).</li>
+</ul>
+</details>
+</main>
+<script>
+const D = /*DATA*/;
+const $ = id => document.getElementById(id);
+const fmt = n => n == null ? "—" : n.toLocaleString("fr-FR");
+const S = {tab: "steam", cat: "all", extra: new Set(), q: "", sort: "rank"};
+const CATS = [["all","Tous"],["code","Code, sans visuels"],["visuels","Visuels, sans code"],["code+visuels","Code et visuels"],["autre","Autre usage"],["non précisé","Non précisé"]];
+const EXTRA = [["audio","Son et voix"],["text","Texte et traduction"],["live","IA pendant le jeu"]];
+const SORTS = {steam: [["rank","Ventes du moment (rang Steam)"],["reviews","Nombre d'avis (ventes sur la durée)"],["pct","Avis positifs (%)"],["title","Nom"]],
+               mobile: [["ratings","Nombre de notes sur l'App Store"],["grossing","Rang des jeux les plus rentables (US)"],["title","Nom"]]};
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function btn(parent, label, pressed, on, count) {
+  const b = document.createElement("button");
+  b.className = parent.id === "tabs" ? "" : "chip";
+  b.innerHTML = esc(label) + (count != null ? `<small>${count}</small>` : "");
+  b.setAttribute("aria-pressed", pressed);
+  b.onclick = on; parent.appendChild(b);
+}
+function rows() {
+  const q = S.q.trim().toLowerCase();
+  let r = D[S.tab].filter(g => (S.cat === "all" || g.cat === S.cat) && [...S.extra].every(f => g.flags.includes(f)) &&
+    (!q || (g.title + " " + g.maker).toLowerCase().includes(q)));
+  const k = S.sort, big = 1e12;
+  r.sort((a, b) => k === "title" ? a.title.localeCompare(b.title) : k === "rank" ? a.rank - b.rank :
+    k === "grossing" ? (a.charts.grossing ?? big) - (b.charts.grossing ?? big) || (b.ratings ?? 0) - (a.ratings ?? 0) :
+    (b[k] ?? -1) - (a[k] ?? -1));
+  return r;
+}
+function badges(g) {
+  return g.flags.length ? g.flags.map(f => `<span class="b ${f}">${D.labels[f]}</span>`).join("") : `<span class="b none">Non précisé</span>`;
+}
+function card(g) {
+  if (S.tab === "steam") return `<div class="g"><div class="rank">${g.rank}<small>ventes</small></div>
+    <div><a class="t" href="${g.url}" target="_blank" rel="noopener">${esc(g.title)}</a><div class="m">${esc(g.maker)}${g.released ? " · " + esc(g.released) : ""}</div><div class="badges">${badges(g)}</div></div>
+    <div class="side"><b>${fmt(g.reviews)}</b> avis${g.pct != null ? `<br>${g.pct} % positifs` : ""}<br>${g.price == null ? "" : g.price === 0 ? "Gratuit" : g.price.toFixed(2) + " $"}</div>
+    <div class="links"><a href="${g.url}#game_area_content_descriptors" target="_blank" rel="noopener">Lire la déclaration IA sur Steam</a></div></div>`;
+  const c = g.charts, ch = [c.grossing && `n° ${c.grossing} des jeux les plus rentables`, c.free && `n° ${c.free} des jeux gratuits`, c.paid && `n° ${c.paid} des jeux payants`].filter(Boolean).join(" · ");
+  return `<div class="g"><div class="rank">${c.grossing ?? c.free ?? "—"}<small>${c.grossing ? "rentables US" : c.free ? "gratuits US" : "hors top 100"}</small></div>
+    <div><a class="t" href="${g.url}" target="_blank" rel="noopener">${esc(g.title)}</a><div class="m">${esc(g.maker)}</div><div class="badges">${badges(g)}</div></div>
+    <div class="side">${g.web ? "Jeu web" : `<b>${fmt(g.ratings)}</b> notes<br>App Store US`}<br><span class="proof">${g.proof === "presse" ? "Confirmé : créateur ou presse" : "Déclaré sur Steam"}</span></div>
+    <div class="note">${esc(g.note)}${ch ? " <b>" + ch + " (App Store US).</b>" : ""}</div>
+    <div class="links"><a href="${g.url}" target="_blank" rel="noopener">${g.web ? "Ouvrir" : "App Store"}</a>${g.play ? `<a href="${g.play}" target="_blank" rel="noopener">Chercher sur Google Play</a>` : ""}<a href="${g.source_url}" target="_blank" rel="noopener">Source : ${esc(g.source)}</a></div></div>`;
+}
+function render() {
+  const all = D[S.tab];
+  $("tabs").innerHTML = ""; $("cats").innerHTML = ""; $("extra").innerHTML = "";
+  btn($("tabs"), `Steam (${D.steam.length})`, S.tab === "steam", () => { S.tab = "steam"; S.sort = "rank"; render(); });
+  btn($("tabs"), `Mobile (${D.mobile.length})`, S.tab === "mobile", () => { S.tab = "mobile"; S.sort = "ratings"; render(); });
+  CATS.forEach(([k, l]) => btn($("cats"), l, S.cat === k, () => { S.cat = k; render(); }, k === "all" ? all.length : all.filter(g => g.cat === k).length));
+  EXTRA.forEach(([k, l]) => btn($("extra"), l, S.extra.has(k), () => { S.extra.has(k) ? S.extra.delete(k) : S.extra.add(k); render(); }, all.filter(g => g.flags.includes(k)).length));
+  $("sort").innerHTML = SORTS[S.tab].map(([k, l]) => `<option value="${k}" ${k === S.sort ? "selected" : ""}>${l}</option>`).join("");
+  const r = rows();
+  $("count").textContent = `${r.length} jeu${r.length > 1 ? "x" : ""} affiché${r.length > 1 ? "s" : ""}`;
+  $("list").innerHTML = r.map(card).join("") || "<p>Aucun jeu ne correspond.</p>";
+}
+const m = D.meta;
+$("lead").innerHTML = `Sur les <b>${fmt(m.top)}</b> meilleures ventes de Steam relevées le ${m.date.split("-").reverse().join("/")}, <b>${fmt(m.steam_ai)}</b> jeux déclarent eux-mêmes de l'IA générative. Filtrez par usage : le code, les visuels, ou les deux. Chaque jeu mène à sa page de store.`;
+$("q").oninput = e => { S.q = e.target.value; const r = rows(); $("count").textContent = `${r.length} jeux affichés`; $("list").innerHTML = r.map(card).join("") || "<p>Aucun jeu ne correspond.</p>"; };
+$("sort").onchange = e => { S.sort = e.target.value; render(); };
+render();
+</script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+[
+  {
+    "title": "38-0-0: Football Squad Draft",
+    "maker": "Deniz Sancar",
+    "ios_id": "6776756035",
+    "url": "https://apps.apple.com/us/app/38-0-0-football-squad-draft/id6776756035",
+    "flags": {"code": true},
+    "note": "Écrit en une nuit avec Claude Code par un créateur seul, sans expérience du code. N° 1 des jeux gratuits de l'App Store au Royaume-Uni en juin 2026, top 20 aux États-Unis, environ 100 000 téléchargements selon le créateur. L'article ne dit rien des visuels.",
+    "source": "Mobilegamer.biz, 11 juin 2026",
+    "source_url": "https://mobilegamer.biz/the-uks-number-one-ios-game-38-0-0-was-built-overnight-by-an-amateur-using-claude-code/"
+  },
+  {
+    "title": "38-0: Football Draft",
+    "maker": "38-0 Digital (Josh Pavey)",
+    "ios_id": "6781590450",
+    "url": "https://apps.apple.com/us/app/38-0-football-draft/id6781590450",
+    "flags": {"code": true},
+    "note": "Fait en une semaine environ par un amateur avec Opus, Gemini, ChatGPT, Cursor et OpenCode. Top 10 des jeux de l'App Store au Royaume-Uni, plus de 100 000 téléchargements selon le créateur. L'article ne dit rien des visuels.",
+    "source": "Mobilegamer.biz, 16 juin 2026",
+    "source_url": "https://mobilegamer.biz/38-0-is-the-second-amateur-made-football-drafting-game-to-break-into-the-uk-app-store-top-ten/"
+  },
+  {
+    "title": "Pets & Puzzles",
+    "maker": "Cosmic Lounge",
+    "ios_id": "6670199655",
+    "url": "https://apps.apple.com/us/app/pets-puzzles/id6670199655",
+    "flags": {"code": true, "visuals": true},
+    "note": "Jeu et mini-jeux construits avec le moteur IA du studio ; les artistes disent s'appuyer sur l'IA pour 50 à 99 % de leur travail selon le visuel. En lancement test aux États-Unis à la date de l'article.",
+    "source": "Mobilegamer.biz, 28 août 2025",
+    "source_url": "https://mobilegamer.biz/seriously-though-where-are-all-the-ai-games/"
+  },
+  {
+    "title": "NTE: Neverness to Everness",
+    "maker": "Hotta Studio (Perfect World)",
+    "ios_id": "6754593077",
+    "url": "https://apps.apple.com/us/app/nte-neverness-to-everness/id6754593077",
+    "flags": {"visuals": true},
+    "note": "Le producteur a reconnu avant la sortie l'usage de visuels faits avec l'IA ; le studio dit ne pas en mettre dans les illustrations finales des personnages. Sujet contesté par les joueurs à la sortie (avril 2026).",
+    "source": "AllThings.how",
+    "source_url": "https://allthings.how/neverness-to-everness-ai-art-controversy-explained/"
+  },
+  {
+    "title": "status - sims but social media",
+    "maker": "WishRoll",
+    "ios_id": "6596771144",
+    "url": "https://apps.apple.com/us/app/status-sims-but-social-media/id6596771144",
+    "flags": {"live": true, "text": true},
+    "note": "Faux réseau social où tous les autres comptes sont joués par une IA. Un million d'inscrits en un mois selon l'équipe (2025). Classé « Divertissement » sur l'App Store, pas « Jeux ».",
+    "source": "PocketGamer.biz",
+    "source_url": "https://www.pocketgamer.biz/how-status-created-a-million-user-ai-social-simulation-in-a-month/"
+  },
+  {
+    "title": "AI Dungeon: RPG & Story Maker",
+    "maker": "Latitude",
+    "ios_id": "1491268416",
+    "url": "https://apps.apple.com/us/app/ai-dungeon-rpg-story-maker/id1491268416",
+    "flags": {"live": true, "text": true},
+    "note": "Aventure textuelle écrite en direct par une IA : c'est le jeu lui-même, dit sur sa fiche App Store.",
+    "source": "Fiche App Store",
+    "source_url": "https://apps.apple.com/us/app/ai-dungeon-rpg-story-maker/id1491268416"
+  },
+  {
+    "title": "Whispers from the Star",
+    "maker": "Anuttacon",
+    "ios_id": "6743071754",
+    "url": "https://apps.apple.com/us/app/whispers-from-the-star/id6743071754",
+    "flags": {"live": true, "text": true, "audio": true},
+    "note": "On parle à voix haute à une astronaute jouée par une IA, en temps réel : dit sur sa fiche App Store.",
+    "source": "Fiche App Store",
+    "source_url": "https://apps.apple.com/us/app/whispers-from-the-star/id6743071754"
+  },
+  {
+    "title": "Infinite Craft by Neal",
+    "maker": "Neal Agarwal",
+    "ios_id": "6499235533",
+    "url": "https://apps.apple.com/us/app/infinite-craft-by-neal/id6499235533",
+    "flags": {"live": true, "text": true},
+    "note": "Chaque nouvelle combinaison d'éléments est inventée par un modèle de langage pendant la partie.",
+    "source": "Wikipédia (en)",
+    "source_url": "https://en.wikipedia.org/wiki/Infinite_Craft"
+  },
+  {
+    "title": "Suika Watermelon Game (Coolmath Games)",
+    "maker": "Auteur de la lettre « gameplaydev »",
+    "web": true,
+    "url": "https://www.coolmathgames.com/0-suika-watermelon-game",
+    "flags": {"code": true, "visuals": true},
+    "note": "Jeu web avec portage mobile : code C# écrit par ChatGPT, fruits dessinés par DALL-E puis nettoyés à la main. Plus de 50 millions de joueurs et 25 000 $ de bénéfice, selon l'auteur lui-même.",
+    "source": "gameplaydev (Substack), 11 mai 2026",
+    "source_url": "https://gameplaydev.substack.com/p/my-ai-generated-game-earned-25000"
+  },
+  {
+    "title": "Destiny Eleven",
+    "maker": "Maxence Pigné",
+    "web": true,
+    "url": "https://rotek.fr/destiny-eleven-cest-quoi-ce-jeu-de-carriere-de-football-qui-commence-a-retourner-tout-le-monde/",
+    "flags": {"code": true},
+    "note": "Jeu de carrière de football français, dans le navigateur du téléphone, sans téléchargement ; développé avec l'aide de Claude. 880 000 joueurs et 11 millions de carrières en une semaine (juillet 2026), chiffres du créateur. Le lien mène à l'article, pas à une fiche de store.",
+    "source": "Rotek / Purebreak",
+    "source_url": "https://www.purebreak.com/news/en-manque-de-la-coupe-du-monde-ce-jeu-de-foot-qui-cartonne-va-devenir-votre-nouvelle-obsession/264228"
+  }
+]
